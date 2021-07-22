@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background-color: gray;
+}
+
+#header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: crimson;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  text-shadow: 2px 2px crimson;
+  font-size: x-large;
+}
+
+#aboutMeContent {
+  border: crimson;
+  padding: 30px;
+  margin: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}

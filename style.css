@@ -1,74 +1,84 @@
-/* body {
-  text-align: center;
-  background-color: grey;
-}
-
-#header {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border: 15px coral;
-  padding: 10px;
-  margin: 10px;
-  color: white;
-  text-shadow: 2px 2px crimson;
-  font-size: x-large;
-  
-}
-
-#aboutMeContent {
-  border: 15px crimson;
-  padding: 4px;
-  margin: 10px;
+body {
+  background-color: rgb(255, 187, 34);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-} */
-
-body {
-  background-color: gray;
 }
 #header {
   text-align: center;
-  border: 8px solid rgb(168, 9, 41);
+  text-shadow: 4px 4px rgb(18, 23, 63);
+  color: rgb(255, 187, 34);
+  border: 8px solid rgb(255, 187, 34);
   padding: 0px;
-  margin: 20px;
-  width: 300px;
+  margin: 0px;
+  background-color: rgb(93, 118, 169);
+  width: 400px;
   position: relative;
-  left: 300px;
-
+  left: 430px;
+  top: 10px;
 }
 #aboutMeContent {
   text-align: center;
-  border: 8px solid darkblue;
+  border: 8px solid white;
   padding: 0px;
   margin: 20px;
   position: relative;
+  background-color: rgb(93, 118, 169);
 }
+
 #experiences {
-  border: 8px solid darkblue;
+  border: 8px solid white;
   padding: 0px;
   margin: 20px;
-  width: 400px;
+  width: 550px;
   position: relative;
   left: 10px;
+  background-color: rgb(93, 118, 169);
 }
 #grizzlies {
-  border: 8px solid black;
-  background-color: rgb(0, 178, 169);
+  border: 8px solid white;
+  background-color: rgb(93, 118, 169);
   padding: 0px;
   margin: 20px;
-  width: 400px;
+  width: 550px;
   position: relative;
-  left: 490px;
-  bottom: 262px;
+  left: 650px;
+  bottom: 243px;
 }
 h2 {
   text-align: center;
-  border: 8px solid rgb(228, 60, 64);
+  border: 8px solid rgb(255, 187, 34);
   padding: 0px;
   margin: 20px;
+  color: rgb(255, 187, 34);
+  background-color: rgb(18, 23, 63);
 }
-#button {
-  border: 8px solid darkblue;
+#quiz-button {
+  color: rgb(255, 187, 34);
+  border: 8px solid white;
   padding: 0px;
   margin: 20px;
-  width: 60px;
+  width: 400px;
+  position: relative;
+  bottom: 320px;
+  left: 60px;
+  font-size: 30px;
+  background-color: rgb(93, 118, 169);
+}
+#quiz-button:hover {
+  background-color: white;
+}
+#container {
+  background-color: rgb(18, 23, 63);
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+
+img {
+  width: 200px;
+  margin-top: 60px;
+}
+
+#logos {
+  list-style-type: none;
 }

@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>About Me Quiz</title>
-</head>
-<body>
-  <div id="header">
-    <h1>About Me</h1>
-  </div>
-  <div id="aboutMeContent">
-    <h2>Biography</h2>
-    <p>Hi, my name is Spencer Richey. I was born in Birmingham, Alabama on December 11, 1996. My family moved to Memphis when I was 4 years old, so I basically grew up in Memphis. Playing tennis has always been a big part of my life. I have played tennis my entire life since my first group lesson as a 6 year old. I don't spend my free time practicing my tennis game anymore, but I still love to watch tennis, and all sports for that matter, on TV. I am obsessed with sports and love playing and watching all of them, even baseball. When I'm not nerding out over some obscure NBA player's rebounding stats in the mid 2000's, I enjoy playing video games on the most superior gaming system ever created: Xbox One. I also like to read, but the material I read depends on my current interests. Right now, I'm reading about behavioral economics because I'm really interested in understanding markets and their driving forces. More specifically, I'm interested in trying to make more money! I am in this coding course because learning how to code is a natural connector of all my hobbies and passions, and I want to start working in a field I'm passionate about.</p>
-    <div id="button">
-      <button onclick="takeQuiz()">Take my quiz!</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>About Me Quiz</title>
+  </head>
+  <body>
+    <div>
+      <ul id="logos">
+        <li><img src="/images/grizz.png" /></li>
+        <li><img src="/images/dayton.png" /></li>
+        <li><img src="/images/bama.png" /></li>
+      </ul>
     </div>
-  </div>
-  <div id="experiences">
-    <h2>School and Work Experience:</h2>
-    <ul>
-      <li>Memphis University School (2008-2015)</li>
-      <li>University of Alabama (2015-2017)</li>
-      <li>University of Dayton (2019-2020)</li>
-      <li>Tennis Instructor at The Racquet Club of Memphis (2018)</li>
-      <li>Line Cook at Restaurant Iris (2020-Present)</li>
-      <li>Tennis Instructor at Grind City Ballers (2020-Present)</li>
-    </ul>
-  </div>
-  <div id="grizzlies">
-    <h2>Spencer's favorite Memphis Grizzlies:</h2>
-    <ol>
-      <li>Shane Battier (2001-2005, 2010)</li>
-      <li>Tony Allen (2010-2016)</li>
-      <li>Stromile Swift (2000-2004, 2006, 2007)</li>
-      <li>Ja Morant (2019-Present)</li>
-      <li>Jason Williams (2001-2004, 2010)</li>
-      <li>Pau Gasol (2001-2007)</li>
-      <li>Zach Randolph (2010-2016)</li>
-      <li>Mike Conley (2007-2018)</li>
-      <li>Mike miller (2002-2007, 2013)</li>
-      <li>Vince Carter (2014-2016)</li>
-    </ol>
-  </div>
-  <script src="app.js"></script>
-</body>
+    <div id="container">
+      <div id="header">
+        <h1>About Me</h1>
+      </div>
+
+      <div id="aboutMeContent">
+        <h2>Biography</h2>
+        <p>
+          Hi, my name is Spencer Richey. I was born in Birmingham, Alabama on
+          December 11, 1996. My family moved to Memphis when I was 4 years old,
+          so I basically grew up in Memphis. Playing tennis has always been a
+          big part of my life. I have played tennis my entire life since my
+          first group lesson as a 6 year old. I don't spend my free time
+          practicing my tennis game anymore, but I still love to watch tennis,
+          and all sports for that matter, on TV. I am obsessed with sports and
+          love playing and watching all of them, even baseball. When I'm not
+          nerding out over some obscure NBA player's rebounding stats in the mid
+          2000's, I enjoy playing video games on the most superior gaming system
+          ever created: Xbox One. I also like to read, but the material I read
+          depends on my current interests. Right now, I'm reading about
+          behavioral economics because I'm really interested in understanding
+          markets and their driving forces. More specifically, I'm interested in
+          trying to make more money! I am in this coding course because learning
+          how to code is a natural connector of all my hobbies and passions, and
+          I want to start working in a field I'm passionate about.
+        </p>
+      </div>
+      <div id="experiences">
+        <h2>School and Work Experience:</h2>
+        <ul>
+          <li>Memphis University School (2008-2015)</li>
+          <li>University of Alabama (2015-2017)</li>
+          <li>University of Dayton (2019-2020)</li>
+          <li>Tennis Instructor at The Racquet Club of Memphis (2018)</li>
+          <li>Line Cook at Restaurant Iris (2020-Present)</li>
+          <li>Tennis Instructor at Grind City Ballers (2020-Present)</li>
+        </ul>
+      </div>
+      <div id="grizzlies">
+        <h2>Spencer's favorite Memphis Grizzlies:</h2>
+        <ol>
+          <li>Shane Battier (2001-2005, 2010)</li>
+          <li>Tony Allen (2010-2016)</li>
+          <li>Stromile Swift (2000-2004, 2006, 2007)</li>
+          <li>Ja Morant (2019-Present)</li>
+          <li>Jason Williams (2001-2004, 2010)</li>
+          <li>Pau Gasol (2001-2007)</li>
+          <li>Zach Randolph (2010-2016)</li>
+          <li>Mike Conley (2007-2018)</li>
+          <li>Mike miller (2002-2007, 2013)</li>
+          <li>Vince Carter (2014-2016)</li>
+        </ol>
+      </div>
+      <button id="quiz-button" onclick="takeQuiz()">Take my quiz!</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
